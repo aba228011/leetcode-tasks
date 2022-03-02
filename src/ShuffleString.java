@@ -19,11 +19,3 @@ public class ShuffleString {
         return resultS;
     }
 }
-
-class Result{
-    public static void main(String[] args) {
-        ShuffleString shuffleString = new ShuffleString();
-        String result = shuffleString.restoreString("codeleet", new int[]{4, 5, 6, 7, 0, 2, 1, 3});
-        System.out.println(result);
-    }
-}
