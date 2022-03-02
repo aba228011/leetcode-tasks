@@ -35,7 +35,7 @@ public class Build {
         // Find N Unique Integers Sum up to Zero
         System.out.println("Find N Unique Integers Sum up to Zero");
         UniqueIntegers uniqueIntegers = new UniqueIntegers();
-        int[] arr = uniqueIntegers.sumZero(5);
+        int[] arr = uniqueIntegers.sumZero(10);
         System.out.println(Arrays.toString(arr));
     }
 }
