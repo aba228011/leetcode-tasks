@@ -32,10 +32,16 @@ public class Build {
         int sumOddLen = oddLength.sumOddLengthSubarrays(new int[]{1, 4, 2, 5, 3});
         System.out.println(sumOddLen);
 
-        // Find N Unique Integers Sum up to Zero
-        System.out.println("Find N Unique Integers Sum up to Zero");
-        UniqueIntegers uniqueIntegers = new UniqueIntegers();
-        int[] arr = uniqueIntegers.sumZero(10);
-        System.out.println(Arrays.toString(arr));
+        // Find N Unique Integers Sum up to Zero (первый вариант решений)
+        System.out.println("Find N Unique Integers Sum up to Zero (первый вариант решений)");
+        UniqueIntegersFirst uniqueIntegersFirst = new UniqueIntegersFirst();
+        int[] arr1 = uniqueIntegersFirst.sumZero(10);
+        System.out.println(Arrays.toString(arr1));
+
+        // Find N Unique Integers Sum up to Zero (второй вариант решений)
+        System.out.println("Find N Unique Integers Sum up to Zero (второй вариант решений)");
+        UniqueIntegersSecond uniqueIntegersSecond = new UniqueIntegersSecond();
+        int[] arr2 = uniqueIntegersSecond.sumZero(10);
+        System.out.println(Arrays.toString(arr2));
     }
 }

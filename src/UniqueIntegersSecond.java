@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class UniqueIntegers {
+public class UniqueIntegersSecond {
     public int[] sumZero(int n) throws Exception {
         if (n >= 1 && n <= 1000) {
             int[] result = new int[n];
